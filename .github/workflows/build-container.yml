@@ -24,4 +24,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: aransaat/assignment6:prod
+          tags: ${{ secrets.DOCKER_USERNAME }}/assignment6:prod
